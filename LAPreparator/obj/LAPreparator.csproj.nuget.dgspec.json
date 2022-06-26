@@ -1,0 +1,426 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\LAPreparator\\LAPreparator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\EmailService\\EmailService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\EmailService\\EmailService.csproj",
+        "projectName": "EmailService",
+        "projectPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\EmailService\\EmailService.csproj",
+        "packagesPath": "C:\\Users\\msj046\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\EmailService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\msj046\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelDataExchanger\\ExcelDataExchanger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelDataExchanger\\ExcelDataExchanger.csproj",
+        "projectName": "ExcelDataExchanger",
+        "projectPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelDataExchanger\\ExcelDataExchanger.csproj",
+        "packagesPath": "C:\\Users\\msj046\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelDataExchanger\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\msj046\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelHandler\\ExcelHandler.csproj": {
+                "projectPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelHandler\\ExcelHandler.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "npoi": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelHandler\\ExcelHandler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelHandler\\ExcelHandler.csproj",
+        "projectName": "ExcelHandler",
+        "projectPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelHandler\\ExcelHandler.csproj",
+        "packagesPath": "C:\\Users\\msj046\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelHandler\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\msj046\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "npoi": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelReader\\ExcelReader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelReader\\ExcelReader.csproj",
+        "projectName": "ExcelReader",
+        "projectPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelReader\\ExcelReader.csproj",
+        "packagesPath": "C:\\Users\\msj046\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelReader\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\msj046\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "npoi": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelWriter\\ExcelWriter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelWriter\\ExcelWriter.csproj",
+        "projectName": "ExcelWriter",
+        "projectPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelWriter\\ExcelWriter.csproj",
+        "packagesPath": "C:\\Users\\msj046\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelWriter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\msj046\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelHandler\\ExcelHandler.csproj": {
+                "projectPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelHandler\\ExcelHandler.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "npoi": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\LAPreparator\\LAPreparator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\LAPreparator\\LAPreparator.csproj",
+        "projectName": "LAPreparator",
+        "projectPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\LAPreparator\\LAPreparator.csproj",
+        "packagesPath": "C:\\Users\\msj046\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\LAPreparator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\msj046\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\EmailService\\EmailService.csproj": {
+                "projectPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\EmailService\\EmailService.csproj"
+              },
+              "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelDataExchanger\\ExcelDataExchanger.csproj": {
+                "projectPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelDataExchanger\\ExcelDataExchanger.csproj"
+              },
+              "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelReader\\ExcelReader.csproj": {
+                "projectPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelReader\\ExcelReader.csproj"
+              },
+              "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelWriter\\ExcelWriter.csproj": {
+                "projectPath": "C:\\Users\\msj046\\OneDrive - Maersk Group\\Projects\\LAPreparator\\ExcelWriter\\ExcelWriter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "npoi": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

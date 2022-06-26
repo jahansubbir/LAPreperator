@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="LAPreparator.UIComponents.SideBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="250"
+             >
+    <UserControl.Resources>
+        <BitmapImage  x:Key="logo" UriSource="pack://application:,,,/resources/maersklogo.png"></BitmapImage>
+    </UserControl.Resources>
+    <Grid>
+
+        <Grid VerticalAlignment="Top" HorizontalAlignment="Left" Width="250" Height="50">
+            <Grid.Background>
+
+                <ImageBrush x:Name="logoImage" ImageSource="{StaticResource logo}"></ImageBrush>
+            </Grid.Background>
+        </Grid>
+
+
+    </Grid>
+</UserControl>

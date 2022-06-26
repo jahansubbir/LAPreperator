@@ -1,0 +1,96 @@
+﻿<UserControl x:Class="LAPreparator.UIComponents.LoadingAdviceControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LAPreparator.UIComponents"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+              xmlns:System="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" 
+             d:DesignHeight="650" d:DesignWidth="800">
+    <UserControl.Resources>
+        <System:Double x:Key="TopMargin">10</System:Double>
+        <System:Double x:Key="LeftLabelMargin">50</System:Double>
+        <System:Double x:Key="LeftTextBoxMargin">100</System:Double>
+    </UserControl.Resources>
+    <Grid Background="{DynamicResource MaterialDesignCardBackground}"  >
+        <materialDesign:Card  VerticalAlignment="Top" HorizontalAlignment="Stretch" Height="50">
+            <materialDesign:Card.Margin>
+                <Thickness Left="0" Top="10"></Thickness>
+            </materialDesign:Card.Margin>
+            <Label Content="LA Email Panel" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource MaterialDesignShadowBrush}"></Label>
+        </materialDesign:Card>
+        <materialDesign:Card VerticalAlignment="Stretch" Background="AliceBlue">
+            <materialDesign:Card.Margin>
+                <Thickness Top="70"></Thickness>
+            </materialDesign:Card.Margin>
+            <Grid HorizontalAlignment="Stretch" >
+                <Grid HorizontalAlignment="Center">
+                <Label Content="File" Foreground="{DynamicResource MaterialDesignLightForeground}" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Label.Margin>
+                <Thickness Top="{StaticResource TopMargin}" Left="50"></Thickness>
+            </Label.Margin>
+        </Label>
+                <TextBox x:Name="FileTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200"                  >
+        
+            <TextBox.Margin>
+                <Thickness Top="{StaticResource TopMargin}" Left="{StaticResource LeftTextBoxMargin}"></Thickness>
+            </TextBox.Margin>
+                </TextBox>
+                <Button VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Content="Browse" Background="{DynamicResource PrimaryHueDarkBrush}" Name="BrowseButton" Click="BrowseButton_Click">
+                    <Button.Margin>
+                        <Thickness Top="{StaticResource TopMargin}" Left="320"></Thickness>
+                    </Button.Margin>
+                </Button>
+                <Label Content="Sheet" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <Label.Margin>
+                        <Thickness Left="{StaticResource LeftLabelMargin}" Top="40"></Thickness>
+                    </Label.Margin>
+                </Label>
+                <TextBox VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Text="Sheet1" Name="SheetNameTextBox">
+                    <TextBox.Margin>
+                        <Thickness Left="{StaticResource LeftTextBoxMargin}" Top="40"></Thickness>
+                    </TextBox.Margin>
+                </TextBox>
+                <Label Content="Range" Height="30" VerticalAlignment="Top" Width="40" HorizontalAlignment="Left">
+                    <Label.Margin>
+                        <Thickness Left="{StaticResource LeftLabelMargin}" Top="70"></Thickness>
+                    </Label.Margin>
+                </Label>
+                <TextBox Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Text="A15:AZ" Name="RangeTextBox">
+                    <TextBox.Margin>
+                        <Thickness Left="{StaticResource LeftTextBoxMargin}" Top="70"></Thickness></TextBox.Margin>
+                </TextBox>
+                <Button Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Background="LightBlue" Name="LoadButton" Click="LoadButton_Click" Content="Load">
+                    <Button.Margin>
+                        <Thickness Left="100" Top="100"></Thickness></Button.Margin>
+                </Button>
+                    <Button Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Background="LightBlue" Name="SendButton" Click="SendButton_Click" Content="Send">
+                        <Button.Margin>
+                            <Thickness Left="100" Top="140"></Thickness>
+                        </Button.Margin>
+                    </Button>
+                </Grid>
+                <WrapPanel x:Name="GroupByPanel" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="AliceBlue" Height="100" FlowDirection="LeftToRight" Orientation="Horizontal" >
+                    <WrapPanel.Margin>
+                        <Thickness Top="200"></Thickness>
+                    </WrapPanel.Margin>
+                    <WrapPanel.ItemHeight>30</WrapPanel.ItemHeight>
+                    <WrapPanel.ItemWidth>95</WrapPanel.ItemWidth>
+                </WrapPanel>
+                <DataGrid x:Name="DataGrid" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" AutoGenerateColumns="False" Sorting="DataGrid_Sorting" Background="{DynamicResource MaterialDesignChipBackground}">
+                    <DataGrid.Margin>
+                        <Thickness Top="300"></Thickness>
+                    </DataGrid.Margin>
+                    <!--<DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Path=S/O}">
+                            
+                        </DataGridTextColumn>
+                    </DataGrid.Columns>-->
+                    
+                </DataGrid>
+            </Grid>
+            
+        </materialDesign:Card>
+    </Grid>
+</UserControl>
